@@ -298,7 +298,7 @@ nav a:hover::before {
   background-image: url(../img/first_bg.jpg);
 }
 .slides .slide:nth-child(2) {
-  background-image: url(../img/second_bg.jpg);
+  background-image: url(../img/ben-turnbull-2w8HuR5BXDs-unsplash.jpg);
 }
 .slides .slide:nth-child(3) {
   background-image: url(../img/third_bg.jpg);
@@ -319,7 +319,17 @@ nav a:hover::before {
 	color: #232323!important;
 }
 
+.my-main-btn a:hover {
+	background-color: #fff;
+	color: #232323!important;
+}
 
+a:link { 
+	text-decoration: underline; 
+} 
+a:hover { 
+	text-decoration: none; 
+} 
 .first-content {
 	padding: 100px;
 	text-align: left;
@@ -368,7 +378,25 @@ nav a:hover::before {
 	margin-right: 15px;
 }
 
+.first-content .my-main-btn {
+	display: inline-block;
+	margin-right: 15px;
+}
+
 .first-content .main-btn a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.first-content .my-main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
@@ -465,6 +493,18 @@ nav a:hover::before {
 	transition: all 0.5s;
 }
 
+.second-content .my-main-btn a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
 
 .third-content {
 	text-align: left;
@@ -478,7 +518,7 @@ nav a:hover::before {
 
 .third-content .first-section .left-content {
 	margin-right: 15px;
-	margin-top: 12px;
+	margin-top: 152px;
 }
 
 .third-content .first-section .right-image {
@@ -521,6 +561,18 @@ nav a:hover::before {
 }
 
 .third-content .main-btn a {
+	display: inline-block;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.third-content .my-main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
 	padding: 8px 15px;
@@ -807,6 +859,12 @@ nav a:hover::before {
 	}
 
 	.first-content .main-btn {
+		display: inline-block;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	.first-content .my-main-btn {
 		display: inline-block;
 		margin-right: 0px;
 		margin-bottom: 15px;
