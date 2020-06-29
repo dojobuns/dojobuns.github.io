@@ -317,6 +317,10 @@ nav a:hover::before {
 	font-size: 24px;
 }
 
+.titleheader {
+	margin-top: 60px;
+}
+
 .main-btn a:hover {
 	background-color: #fff;
 	color: #232323!important;
