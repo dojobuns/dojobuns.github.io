@@ -908,3 +908,8 @@ a:hover {
 	  	padding: 15px 20px;
 	}
 }
+
+.side-nav-bar {
+	display: flex;
+	align-items: center;
+}
