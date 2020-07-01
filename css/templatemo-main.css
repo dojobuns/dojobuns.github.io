@@ -607,8 +607,8 @@ a:hover {
 }
 
 .fourth-content .container-fluid .col-md-4 {
-	padding-right: 0px;
-	padding-left: 0px;
+	padding-right: 150px;
+	padding-left: 150px;
 }
 
 .fourth-content .item {
@@ -628,7 +628,7 @@ a:hover {
 	text-align: left;
 	position: absolute;
 	color: #fff;
-	background-color: rgba(0,0,0,0.95);
+	background-color: rgba(0,0,0,0.75);
 	bottom: 0;
 	top: 0;
 	left: 0;
@@ -646,7 +646,7 @@ a:hover {
 .fourth-content .item .hover-effect .hover-content {
 	transform: translateY(-50%);
     position: absolute;
-    text-align: left;
+    text-align: center;
     width: 100%;
     top: 50%;
     left: 0;
