@@ -234,6 +234,12 @@ nav a {
   	position: relative;
   	z-index: 0;
 }
+
+a {
+	text-decoration: none!important;
+	color: #fff;
+}
+
 nav a.active {
   background-color: #fff;
   color: #232323;
@@ -318,7 +324,7 @@ nav a:hover::before {
 }
 
 .titleheader {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 .main-btn a:hover {
@@ -912,4 +918,13 @@ a:hover {
 .side-nav-bar {
 	display: flex;
 	align-items: center;
+}
+
+.personal-links {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.linkedin {
+	margin-right: 15px;
 }
