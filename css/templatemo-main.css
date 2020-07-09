@@ -16,6 +16,12 @@ http://www.templatemo.com/tm-512-moonlight
   }
 }
 
+.read-more{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
 .seq-preloader {
   background: white;
   visibility: visible;
